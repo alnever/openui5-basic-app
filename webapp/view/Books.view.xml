@@ -1,0 +1,15 @@
+<mvc:View
+	controllerName="bookstore.controller.Books"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+
+    <List id="BooksList" items="{data>/Books}">
+        <items>
+            <StandardListItem title="{data>Titile}" />
+        </items>
+    </List>
+    
+</mvc:View>
+
+
