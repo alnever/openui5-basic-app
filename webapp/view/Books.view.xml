@@ -6,10 +6,10 @@
 
     <List id="BooksList" items="{data>/Books}">
         <items>
-            <StandardListItem title="{data>Titile}" />
+            <StandardListItem title="{data>Title}" />
         </items>
     </List>
-    
+
 </mvc:View>
 
 

@@ -96,14 +96,13 @@
 							"pattern": "",
 							"name": "home",
 							"target": "home",
-							"subroutes":[
+							"subroutes": [
 								{
 									"pattern": "/books",
 									"name": "books",
 									"target": "books"
 								}
 							]
-
 						}
 					]
 				}
@@ -112,8 +111,8 @@
 				"home": {
 					"viewName": "Home",
 					"targetAggregation": "pages",
-					"targetControl": "page"
-				},
+					"targetControl": "app"
+		},
 				"books": {
 					"viewName": "Books",
 					"targetAggregation": "content"
